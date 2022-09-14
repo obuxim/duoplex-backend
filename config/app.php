@@ -212,4 +212,9 @@ return [
         // 'ExampleClass' => App\Example\ExampleClass::class,
     ])->toArray(),
 
+
+    /*
+        Custom Environment Variables
+    */
+    'tmdb_api_key' => env('TMDB_API_KEY', 'b21e823db5b53204ad1cd24f5422311c'),
 ];
